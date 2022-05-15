@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 130vh;
+}
+
+.title .why {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #4a4a4a;
+}
+
+.title .code_academy {
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 10px;
+  letter-spacing: -1.2px;
+  color: #4a4a4a;
+}
+
+.title .rainbow_bar {
+  background: #0ae038;
+  background: -webkit-gradient(linear, left top, right top, from(#0ae038), color-stop(17%, #0b4992), color-stop(35%, #5d0c88), color-stop(54%, #de2417), color-stop(71%, #d77c12), to(#fff800));
+  background: linear-gradient(90deg, #0ae038 0%, #0b4992 17%, #5d0c88 35%, #de2417 54%, #d77c12 71%, #fff800 100%);
+  width: 100px;
+  height: 3px;
+  margin: 70px 0px 50px 0px;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.item img {
+  width: 209px;
+  height: 209px;
+  cursor: pointer;
+}
+
+.item .text {
+  padding-right: 35px;
+  margin-right: 0px;
+}
+
+.item .text h2 {
+  font-size: 21px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.item .text .etrafli {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    padding: 0px !important;
+  }
+  img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .text {
+    padding-left: 50px;
+    margin-right: 0px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
